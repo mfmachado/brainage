@@ -1,0 +1,9 @@
+# 3DCAE-MRI: Overcoming Data Availability Limitations in Small Sample MRI Studies
+
+Deep Learning (DL) methods are data-driven models that learn abstract, hierarchical features from data. These models perform exceptionally well in image recognition tasks when large amounts of data are used. The availability of open-source large-scale annotated datasets is crucial for developing high-performance models. Nevertheless, the use of DL models in neuroimaging is restricted due to data availability constraints. Transfer learning has been used to overcome this issue. Nonetheless, most related studies have focused on transferring knowledge from/to an Alzheimer’s disease context. In this paper, we propose a 3D-convolutional autoencoder magnetic resonance imaging (3DCAE-MRI) model to improve upon the performance of supervised DL models in small-sample  magnetic resonance imaging (MRI) studies. We exploited multiple open-source MRI datasets to train 3DCAE-MRI. Transfer learning was applied to two model architectures and benchmark problems: age prediction and sex classification. With respect to age prediction, conducting off-the-shelf learning with 3DCAE-MRI while using only 300 training samples yielded remarkable performance on an external dataset; this performance was superior to that of state-of-the-art methods that use thousands of images. In terms of both age prediction and sex classification, off-the-shelf learning using 3DCAE-MRI led to better performance, higher generalisability and more stable models than fine-tuning or training the network from scratch.
+
+## Paper
+https://assets.researchsquare.com/files/rs-3290143/v1_covered_03709998-346b-4872-99e9-9f07e088ba02.pdf?c=1693823638
+
+## Code availability
+https://github.com/mfmachado/transfer-learning-age-sex-prediction
